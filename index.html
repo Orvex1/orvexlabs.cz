@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orvex Labs — independent product studio, Prague</title>
+<meta name="description" content="Orvex Labs s.r.o. is an independent product studio in Prague. We design, build, and ship consumer mobile apps with AI at the core.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F7F7F4;
+    --ink:#1B1E23;
+    --slate:#5C6470;
+    --line:#D9DAD4;
+    --lab:#2C4A8A;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:17px;line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+  a{color:var(--lab);text-decoration:none}
+  a:hover{text-decoration:underline}
+  a:focus-visible{outline:2px solid var(--lab);outline-offset:3px;border-radius:2px}
+
+  header{padding:28px 0;border-bottom:1px solid var(--line)}
+  .head-row{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+  .wordmark{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:20px;letter-spacing:.04em;color:var(--ink)}
+  .wordmark span{color:var(--lab)}
+  .head-meta{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.12em;color:var(--slate);text-transform:uppercase}
+
+  .hero{padding:96px 0 72px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--lab);margin-bottom:20px}
+  h1{
+    font-family:"Space Grotesk",sans-serif;font-weight:700;
+    font-size:clamp(34px,5.4vw,54px);line-height:1.08;letter-spacing:-.015em;
+    max-width:15ch;
+  }
+  .hero p{margin-top:24px;max-width:52ch;color:var(--slate);font-size:19px}
+
+  section{padding:56px 0;border-top:1px solid var(--line)}
+  h2{font-family:"Space Grotesk",sans-serif;font-weight:500;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:32px}
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+  .col h3{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:19px;margin-bottom:10px}
+  .col p{color:var(--slate);font-size:16px}
+
+  .now p{max-width:56ch;font-size:19px}
+  .now strong{font-weight:500;color:var(--ink)}
+
+  .registry{
+    border-top:1px solid var(--ink);
+    border-bottom:1px solid var(--ink);
+    padding:28px 0;
+  }
+  .registry dl{
+    display:grid;grid-template-columns:max-content 1fr;
+    row-gap:10px;column-gap:32px;
+    font-family:"IBM Plex Mono",monospace;font-size:13.5px;line-height:1.5;
+  }
+  .registry dt{letter-spacing:.12em;text-transform:uppercase;color:var(--slate)}
+  .registry dd{color:var(--ink)}
+
+  footer{padding:40px 0 64px;color:var(--slate);font-size:14px}
+  footer .foot-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+  @media (max-width:720px){
+    .cols{grid-template-columns:1fr;gap:28px}
+    .hero{padding:72px 0 56px}
+    .registry dl{grid-template-columns:1fr;row-gap:2px}
+    .registry dt{margin-top:14px}
+    .registry dt:first-child{margin-top:0}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap head-row">
+    <div class="wordmark">ORVEX<span> LABS</span></div>
+    <div class="head-meta">Praha · EST. 2026</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Independent product studio</div>
+      <h1>We build consumer apps with AI at the core.</h1>
+      <p>Orvex Labs is a product studio based in Prague. We design, engineer, and ship mobile applications end to end — from the first idea to the App&nbsp;Store.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>What we do</h2>
+      <div class="cols">
+        <div class="col">
+          <h3>Product design</h3>
+          <p>Interfaces with a point of view. We design distinctive products people enjoy using, not templates.</p>
+        </div>
+        <div class="col">
+          <h3>Mobile engineering</h3>
+          <p>Native-quality iOS and Android apps built on modern cross-platform tooling, shipped with discipline.</p>
+        </div>
+        <div class="col">
+          <h3>Applied AI</h3>
+          <p>We put large-model intelligence inside everyday consumer products — responsibly, with safety designed in from day one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="now">
+    <div class="wrap">
+      <h2>Now building</h2>
+      <p>Our first product — <strong>an AI-powered personal style app</strong> — is in private beta and launching on iOS and Android in 2026. More soon.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Company</h2>
+      <div class="registry">
+        <dl>
+          <dt>Legal name</dt><dd>Orvex Labs s.r.o.</dd>
+          <dt>Company ID (IČO)</dt><dd>29820260</dd>
+          <dt>Registered office</dt><dd>Kurzova 2222/16, Stodůlky, 155 00 Praha 5, Czech Republic</dd>
+          <dt>Registration</dt><dd>File C 452890, Municipal Court in Prague</dd>
+          <dt>Contact</dt><dd><a href="mailto:info@orvexlabs.cz">info@orvexlabs.cz</a></dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div>© 2026 Orvex Labs s.r.o. All rights reserved.</div>
+    <div>Praha, Czech Republic</div>
+  </div>
+</footer>
+
+</body>
+</html>
