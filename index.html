@@ -64,8 +64,16 @@
   .col h3{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:19px;margin-bottom:10px}
   .col p{color:var(--slate);font-size:16px}
 
-  .now p{max-width:56ch;font-size:19px}
-  .now strong{font-weight:500;color:var(--ink)}
+  .products p{max-width:56ch;font-size:19px}
+  .products strong{font-weight:500;color:var(--ink)}
+  .products h3{
+    font-family:"Space Grotesk",sans-serif;font-weight:700;
+    font-size:28px;line-height:1.15;letter-spacing:-.01em;margin-bottom:12px;
+  }
+  .store{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:28px}
+  .store .badge{display:block;line-height:0}
+  .store .badge:hover{text-decoration:none}
+  .store .badge img{display:block;height:40px;width:auto}
 
   .registry{
     border-top:1px solid var(--ink);
@@ -138,10 +146,17 @@
     </div>
   </section>
 
-  <section class="now">
+  <section class="products">
     <div class="wrap">
-      <h2>Now building</h2>
-      <p>Our first product — <strong>personal style app</strong> — is in private beta and launching on iOS and Android in 2026. More soon.</p>
+      <h2>Products</h2>
+      <h3>Judger</h3>
+      <p><strong>Live on the App&nbsp;Store.</strong> AI outfit ratings for iPhone. Score, roast and fixes from one photo — judging clothes, never people.</p>
+      <div class="store">
+        <a class="badge" href="https://apps.apple.com/app/id6801655577">
+          <img src="/appstore-badge.svg" width="120" height="40" alt="Download Judger on the App Store">
+        </a>
+        <a href="https://judger.app">judger.app</a>
+      </div>
     </div>
   </section>
 
